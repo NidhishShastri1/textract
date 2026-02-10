@@ -1,0 +1,14 @@
+{
+  "name": "textract",
+  "version": "1.0.0",
+  "description": "- **Frontend**: React (Port 3000)\r - **Backend**: Spring Boot (Port 8080)\r - **AI Service**: Python FastAPI + Qwen + Tesseract (Port 8000)\r - **Database**: H2 (Local), MySQL (Production)",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2"
+  }
+}

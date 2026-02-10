@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: 📄
+      - heading "Textract AI" [level=1] [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e10]: System Ready
+      - button "🕘 History" [ref=e12] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - heading "📤 Input Document" [level=2] [ref=e18]:
+          - generic [ref=e19]: 📤
+          - text: Input Document
+        - paragraph [ref=e20]: Upload a handwritten form image
+      - generic [ref=e22] [cursor=pointer]:
+        - img [ref=e24]
+        - heading "Drag & Drop or Click to Upload" [level=3] [ref=e27]
+        - paragraph [ref=e28]: Upload your handwritten form for AI extraction
+        - generic [ref=e29]:
+          - generic [ref=e30]: PNG
+          - generic [ref=e31]: JPG
+          - generic [ref=e32]: JPEG
+          - generic [ref=e33]: WEBP
+      - generic [ref=e34]:
+        - button "🚀 Extract Data" [disabled] [ref=e35]
+        - button "Clear" [ref=e36] [cursor=pointer]
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - heading "📊 Extraction Results" [level=2] [ref=e39]:
+          - generic [ref=e40]: 📊
+          - text: Extraction Results
+        - generic [ref=e41]:
+          - button "JSON" [ref=e42] [cursor=pointer]
+          - button "Raw Text" [active] [ref=e43] [cursor=pointer]
+      - generic [ref=e45]:
+        - generic [ref=e46]: 🔍
+        - heading "No Results Yet" [level=3] [ref=e47]
+        - paragraph [ref=e48]: Upload a document and click "Extract Data" to see AI-extracted content here
+```

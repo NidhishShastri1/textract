@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Java / Maven
+backend/target/
+
+# Node
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp/
+*.tmp
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+# Sensitive
+*.pem
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform-provider-*
+*.exe
+.agent/
+.gemini/
+.env*
+.env
+**/node_modules/
+**/target/
+**/__pycache__/
