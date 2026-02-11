@@ -21,6 +21,9 @@ public class FileEntity {
     @Column(columnDefinition = "TEXT")
     private String extractedJson;
 
+    @Column(columnDefinition = "TEXT")
+    private String extractedTable;
+
     private LocalDateTime uploadedAt;
 
     @PrePersist

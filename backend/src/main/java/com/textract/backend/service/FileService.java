@@ -32,6 +32,8 @@ public class FileService {
             Map<String, Object> aiResult = aiServiceClient.sendToAi(file);
 
             entity.setRawText((String) aiResult.getOrDefault("raw_text", ""));
+            entity.setExtractedTable((String) aiResult.getOrDefault("extracted_table", ""));
+
             Object data = aiResult.get("extracted_data");
             if (data != null) {
                 entity.setExtractedJson(objectMapper.writeValueAsString(data));
